@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Hackathon project</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <h1>This is my project</h1>
+    <p># Learn • Eat • Stay Well</p>
+  </header>
+
+  <main>
+    <section class="service-cards">
+      <button id="learnBtn" class="card">AI Tutor</button>
+      <button id="foodBtn" class="card">Recipe Recommender</button>
+      <button id="wellBtn" class="card">Wellbeing Tips</button>
+    </section>
+
+    <section id="controls" class="panel">
+      <div id="learnPanel" class="panel-content hidden">
+        <h2>Ask the AI Tutor</h2>
+        <textarea id="learnInput" rows="4" placeholder="E.g., Explain photosynthesis simply..."></textarea>
+        <button id="askLearn">Ask</button>
+        <div id="learnResult" class="result"></div>
+      </div>
+
+      <div id="foodPanel" class="panel-content hidden">
+        <h2>Recipe Recommender</h2>
+        <input id="ingredients" placeholder="Enter ingredients separated by commas (eg: rice, tomato, egg)">
+        <button id="askFood">Get Recipes</button>
+        <div id="foodResult" class="cards"></div>
+      </div>
+
+      <div id="wellPanel" class="panel-content hidden">
+        <h2>Wellbeing Tips</h2>
+        <button id="askWell">Get Tip</button>
+        <div id="wellResult" class="result"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>@Designed and developed by Daisy</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

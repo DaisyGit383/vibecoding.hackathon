@@ -1,0 +1,17 @@
+root{--bg:aqua;--card:white ;--accent:dark blue;--muted:purple}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);margin:0;color:#111}
+header{background:var(--accent);color:white;padding:1.2rem;text-align:center}
+header h1{margin:0;font-size:1.4rem}
+main{max-width:900px;margin:1.2rem auto;padding:0 1rem}
+.service-cards{display:flex;gap:1rem;justify-content:center;margin-bottom:1rem}
+.card{background:var(--card);border-radius:10px;padding:1rem 1.2rem;border:1px solid darkblue;cursor:pointer;box-shadow:0 6px 18px rgba(20,20,40,0.04)}
+.panel{background:transparent}
+.panel-content{background:var(--card);padding:1rem;border-radius:8px;border:1px solid purple}
+.hidden{display:none}
+textarea,input{width:100%;padding:0.6rem;margin:0.5rem 0;border-radius:6px;border:1px solid aqua}
+button{background:var(--accent);color:darkblue;border:none;padding:0.6rem 1rem;border-radius:6px;cursor:pointer}
+.result{white-space:pre-wrap;margin-top:0.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0.8rem;margin-top:0.6rem}
+.recipe-card{background:lightcyan;padding:0.8rem;border-radius:8px;border:1px solid chocolate}
+footer{text-align:center;padding:1rem;color:var(--muted)}

@@ -1,0 +1,71 @@
+🎯 EduHealthNutri Hub — Pitch Deck
+🌍 Opening / Title
+
+My_project
+AI-powered platform for education, health awareness, and nutrition guidance
+(Aligned with SDGs 4, 3, and 2)
+
+🚨 The Problem
+
+Education: Millions of learners lack personalized support and quality learning resources.
+
+Health: Low health literacy leads to preventable illnesses.
+
+Nutrition: Communities face malnutrition and poor diet planning.
+
+💡 Our Solution
+The following are recommended;
+
+📘 Learning Hub → AI tutoring, study materials, quizzes.
+
+🏥 Health Check AI → Chatbot for preventive health guidance.
+
+🍎 Nutrition Guide → AI meal plans tailored to users.
+
+🌱 Why It Matters 
+
+SDG 4 (Quality Education): Democratizes access to personalized learning.
+
+SDG 3 (Good Health): Promotes preventive healthcare & awareness.
+
+SDG 2 (Zero Hunger): Provides nutrition planning & meal guidance.
+
+🛠️ How It Works 
+
+Frontend: HTML, CSS, JavaScript (simple, accessible UI).
+
+Backend: Python (Flask) REST API.
+
+Database: MySQL (secure storage).
+
+AI Engine: OpenAI GPT (personalized learning & advice).
+
+Deployment: Render (backend) + Netlify (frontend).
+
+🎯 Target Audience
+
+Students needing affordable learning support.
+
+Families seeking better nutrition guidance.
+
+Communities with limited access to healthcare.
+
+📈 Impact
+
+Boosts learning outcomes with AI tutors.
+
+Improves health literacy and preventive care.
+
+Reduces malnutrition risks through smart nutrition advice.
+
+🚀 Growth & Sustainability
+
+Scalable across regions and devices.
+
+Partnerships with schools, NGOs, and community health programs.
+
+Future expansion into mobile apps for offline access.
+
+🔑 Call to Action
+
+#This was exciting and fun to work on!
